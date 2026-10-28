@@ -5,11 +5,6 @@ con un SCO por apartado, un árbol jerárquico para Moodle, imágenes y adjuntos
 locales, resaltado de código y matemáticas sin CDN. Ofrece las plantillas
 `default` y `fpd-medu` y una API Python separada de la CLI.
 
-El ejemplo real está en
-[`dist/01-Introduccion-al-analisis-forense-scorm12.zip`](dist/01-Introduccion-al-analisis-forense-scorm12.zip).
-El [informe de entrega](dist/validation-report.md) recoge las comprobaciones
-realmente ejecutadas. **No se ha probado la importación en una instancia real
-de Moodle.** La validación automatizada, incluido XSD y API simulada, no la sustituye.
 
 ## Requisitos e instalación en Linux
 
