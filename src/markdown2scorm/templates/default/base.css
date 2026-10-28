@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #233344; background: #fff; }
+body { margin: 0 auto; max-width: 72rem; padding: clamp(1rem, 4vw, 3rem); line-height: 1.7; overflow-wrap: anywhere; }
+.course-header { font-size: .85rem; letter-spacing: .035em; color: #516578; margin-bottom: 2rem; }
+h1,h2,h3,h4,h5,h6 { line-height: 1.25; text-wrap: balance; }
+h1 { font-size: clamp(1.65rem, 4vw, 2.3rem); margin: 0 0 1.5rem; }
+p { margin: 1em 0; }
+a { color: #075cb4; text-underline-offset: .2em; }
+a:focus-visible { outline: 3px solid #075cb4; outline-offset: 4px; }
+img { display: inline-block; max-width: 100%; height: auto; }
+figure { margin: 2rem 0; text-align: center; }
+figure img { max-height: 48rem; object-fit: contain; }
+figcaption { color: #516578; font-size: .9em; margin: .5rem 0; }
+blockquote { margin: 1.5rem 0; padding: .5rem 1.5rem; border-left: 4px solid #4285b6; background: #f1f6fb; }
+ul,ol { padding-left: 1.8em; }
+li { margin: .3em 0; }
+.table-scroll { max-width: 100%; overflow-x: auto; margin: 1.5rem 0; }
+table { border-collapse: collapse; width: 100%; font-size: .95em; }
+th,td { padding: .75em; border: 1px solid #d5e0ea; text-align: left; vertical-align: top; min-width: 8rem; }
+th { background: #e9f0f7; }
+tr:nth-child(even) { background: #f7f9fb; }
+pre { white-space: pre; overflow-x: auto; max-width: 100%; padding: 1.2rem; background: #f4f6f9; border: 1px solid #d5e0ea; border-radius: .4rem; }
+code { font-family: 'DejaVu Sans Mono', Consolas, monospace; font-size: .9em; }
+pre code { font-size: .88rem; overflow-wrap: normal; }
+.latex-source { font-size: .8rem; color: #516578; padding: .4rem .8rem; margin: .4rem 0; }
+math[display='block'] { display: block; overflow-x: auto; padding: 1rem 0; }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d5e0ea; font-size: .75rem; color: #516578; }
+.footnotes { font-size: .9em; }
+@media (max-width: 40rem) { body { line-height: 1.6; } blockquote { padding: .5rem 1rem; } }
+@media print { body { max-width: none; } pre { white-space: pre-wrap; } .table-scroll { overflow: visible; } }

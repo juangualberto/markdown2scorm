@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "markdown2scorm"
+version = "1.0.0"
+description = "Conversor seguro de Markdown a SCORM 1.2, con recursos locales y plantillas"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = [
+  "markdown-it-py>=3,<5", "mdit-py-plugins>=0.4,<0.6",
+  "linkify-it-py>=2,<3", "Jinja2>=3.1,<4", "Pygments>=2.18,<3",
+  "latex2mathml>=3.77,<4", "lxml>=5,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "build>=1,<2", "playwright>=1.48,<2"]
+
+[project.scripts]
+markdown2scorm = "markdown2scorm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+markdown2scorm = ["runtime/*.js", "templates/*/*.html", "templates/*/*.css", "templates/*/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

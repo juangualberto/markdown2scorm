@@ -1,0 +1,21 @@
+FPD-MEDU — attribution and license
+
+Original theme: FPD-MEDU, version 2019, by José Ramón Jiménez Reyes,
+created for the TodoFP project of the Ministerio de Educación.
+Author URL: http://www.exelearning.net
+Source supplied with this project: SR-tarea08-pt.zip, content.css and config.xml.
+Original license explicitly declared by config.xml:
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).
+https://creativecommons.org/licenses/by-sa/3.0/
+Full license: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+2026 adaptation by markdown2scorm contributors, under CC BY-SA 3.0:
+style.css adapts palette, font stack, heading underline, tables, quotations,
+and spacing to semantic HTML5. page.html supplies a new accessible structure.
+Removed eXeLearning JavaScript, layout/navigation rules, raster icons and
+obsolete browser workarounds. Common base.css and runtime are separate MIT code.
+
+You may share and adapt the adapted theme, including commercially, with
+attribution, a link to the license, indication of changes, and ShareAlike.
+No endorsement by the original author or Ministry is implied.
+The theme license does not relicense the user's manuscript or images.

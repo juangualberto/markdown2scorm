@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/*.build-*/
+SR-tarea08-pt.elp
+SR-tarea08-pt.zip
+test/
+dist/

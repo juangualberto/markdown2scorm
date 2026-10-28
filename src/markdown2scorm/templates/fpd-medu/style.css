@@ -1,0 +1,18 @@
+/* FPD-MEDU, José Ramón Jiménez Reyes, TodoFP, 2019, CC BY-SA 3.0.
+   Adaptation 2026: semantic HTML5 selectors, responsive layout, local code CSS.
+   Original: SR-tarea08-pt.zip/content.css; license recorded in config.xml.
+   https://creativecommons.org/licenses/by-sa/3.0/ — see NOTICE.txt. */
+body { font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #000; }
+h1 { color: #0087ff; border-bottom: .1em solid #0087ff; padding: .1em 0 .35em; font-weight: bold; }
+h2,h3,h4,h5,h6 { color: #044085; }
+a { color: #006cce; }
+.course-header { color: #044085; }
+blockquote { color: #5e2a0d; background: #f1d8c8; border-color: #5e2a0d; border-radius: .5em; }
+th,td { border-color: #d4e0ee; color: #555; }
+th { background: #c3dcf7; color: #153152; text-align: center; }
+tbody tr { background: #fcfdfe; }
+tbody tr:nth-child(even) { background: #f7f9fc; }
+tbody tr:hover { background: #c3dcf7; }
+figcaption { color: #444; }
+pre { border-left: .35rem solid #c3dcf7; border-radius: 0; color: #000; line-height: 1.65; }
+li::marker { color: #044085; }
